@@ -78,7 +78,7 @@ main {
     @include flex-col(1.4rem);
     .top {
       display: flex;
-      gap: 6rem;
+       justify-content: space-between;
 
       .top-1,
       .top-2 {
@@ -96,7 +96,7 @@ main {
     }
     .bottom {
       display: flex;
-      gap: 6rem;
+      justify-content: space-between;
       .bottom-1,
       .bottom-2 {
         h2 {
@@ -373,14 +373,14 @@ main {
     section.view2 {
       width: 100%;
       color: white;
-      padding: 2rem 12rem;
-      @include flex-col(12rem);
+      padding: 2rem 4rem;
+      @include flex-col(18rem);
       flex-direction: row;
       align-items: center;
    
     .top {
     display: flex;
-      gap: 12rem;
+      width:50%;
 
       .top-1,
       .top-2{
@@ -394,7 +394,7 @@ main {
       }
     }
     .bottom {
-      gap: 12rem;
+     width:50%;
       .bottom-1,
       .bottom-2 {
         h2 {
@@ -496,4 +496,5 @@ main {
             align-items: center;
         }
     }
+
 }}}}
