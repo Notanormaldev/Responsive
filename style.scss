@@ -263,6 +263,7 @@ main {
   section.view6{
     max-width: 1900px;
     padding: 1rem;
+    border-radius: 0.7rem;
     @include flex-col(2rem);
     color: white;
     .top{
@@ -500,4 +501,5 @@ main {
             align-items: center;
         }
     }
+
 }}}}
