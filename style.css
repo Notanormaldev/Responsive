@@ -288,6 +288,7 @@ main section.view6 .bottom {
   flex-direction: column;
   gap: 3rem;
   padding: 1rem;
+  border-radius:0.7rem;
 }
 main section.view6 .bottom .text h3 {
   opacity: 0.5;
